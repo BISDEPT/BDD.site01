@@ -39,6 +39,15 @@ body {
   display: block;
 }
 
+.hero-frame--white {
+  background-color: #ffffff;
+}
+
+.hero-image--contain {
+  object-fit: contain;
+  padding: 32px;
+}
+
 .hero-text {
   margin-top: 40px;
   text-align: center;
@@ -70,6 +79,14 @@ body {
 }
 
 .section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 32px 24px 48px;
+}
+
+.section-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
