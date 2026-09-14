@@ -47,14 +47,23 @@ body {
 }
 
 .hero-title-image {
-  width: 150px;
+  display: block;
   height: auto;
-  display: inline-block;
+  margin: 0 auto;
+}
+
+.hero-title-image--biscuit {
+  width: 103px;
+}
+
+.hero-title-image--department {
+  width: 246px;
+  margin-top: 6px;
 }
 
 .hero-text-sub {
   font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 13px;
   font-weight: 300;
   letter-spacing: 0.3em;
