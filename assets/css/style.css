@@ -47,8 +47,7 @@ body {
 }
 
 .hero-title-image {
-  width: 65%;
-  max-width: 230px;
+  width: 150px;
   height: auto;
   display: inline-block;
 }
