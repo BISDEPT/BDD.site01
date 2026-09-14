@@ -126,7 +126,7 @@ body {
 }
 
 .kenburns {
-  animation: kenburns 7s ease-in-out infinite;
+  animation: kenburns 19s ease-in-out infinite;
   transform-origin: center;
   will-change: transform;
 }
@@ -135,8 +135,14 @@ body {
   0% {
     transform: scale(1);
   }
+  13.16% {
+    transform: scale(1.08);
+  }
   50% {
     transform: scale(1.08);
+  }
+  63.16% {
+    transform: scale(1);
   }
   100% {
     transform: scale(1);
