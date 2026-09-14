@@ -17,7 +17,7 @@ document.querySelectorAll('.hero-carousel').forEach((carousel) => {
       const t = Math.min((now - startTime) / duration, 1);
       const eased = easeInOutCubic(t);
       carousel.scrollLeft = startLeft + distance * eased;
-      carousel.style.opacity = String(1 - Math.sin(t * Math.PI) * 0.15);
+      carousel.style.opacity = String(1 - Math.sin(t * Math.PI) * 0.1);
 
       if (t < 1) {
         requestAnimationFrame(step);
@@ -32,6 +32,6 @@ document.querySelectorAll('.hero-carousel').forEach((carousel) => {
 
   setInterval(() => {
     index = (index + 1) % slideCount;
-    glideTo(carousel.clientWidth * index, 1500);
-  }, 3000);
+    glideTo(carousel.clientWidth * index, 2400);
+  }, 5000);
 });
