@@ -7,7 +7,7 @@
 html, body {
   width: 100%;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #f7f0e6;
 }
 
 body {
@@ -69,4 +69,14 @@ body {
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #4a4a4a;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 96px 24px 48px;
 }
