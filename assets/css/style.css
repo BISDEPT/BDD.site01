@@ -184,9 +184,17 @@ body {
 
 .section5-heading-image {
   display: block;
-  width: 260px;
   height: auto;
   margin: 0 auto;
+}
+
+.section5-heading-image--title {
+  width: 159px;
+}
+
+.section5-heading-image--subtitle {
+  width: 132px;
+  margin-top: 10px;
 }
 
 .works-list {
