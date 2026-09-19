@@ -169,6 +169,54 @@ body {
   padding: 32px 24px 48px;
 }
 
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 32px 24px 48px;
+}
+
+.section5-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section5-title {
+  font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.section5-subtitle {
+  font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  color: #4a4a4a;
+}
+
+.works-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.works-list p {
+  font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  color: #1a1a1a;
+}
+
 .kenburns {
   animation: kenburns 19s ease-in-out infinite;
   transform-origin: center;
