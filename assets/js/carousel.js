@@ -6,5 +6,5 @@ document.querySelectorAll('.hero-carousel').forEach((carousel) => {
     slides[index].classList.remove('is-active');
     index = (index + 1) % slides.length;
     slides[index].classList.add('is-active');
-  }, 6000);
+  }, 10000);
 });
