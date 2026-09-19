@@ -182,21 +182,11 @@ body {
   margin-bottom: 40px;
 }
 
-.section5-title {
-  font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-}
-
-.section5-subtitle {
-  font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
-  margin-top: 10px;
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.15em;
-  color: #4a4a4a;
+.section5-heading-image {
+  display: block;
+  width: 260px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .works-list {
