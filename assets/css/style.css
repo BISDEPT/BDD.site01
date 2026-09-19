@@ -188,8 +188,13 @@ body {
   margin: 0 auto;
 }
 
+.section5-heading-image--the {
+  width: 51px;
+}
+
 .section5-heading-image--title {
-  width: 159px;
+  width: 157px;
+  margin-top: 6px;
 }
 
 .section5-heading-image--subtitle {
