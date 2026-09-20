@@ -115,6 +115,10 @@ body {
   padding: 32px;
 }
 
+.statement-frame .hero-image--contain {
+  padding: 24px;
+}
+
 .hero-text {
   margin-top: 40px;
   text-align: center;
@@ -206,23 +210,6 @@ body {
     repeating-linear-gradient(to right, rgba(90, 110, 190, 0.18) 0, rgba(90, 110, 190, 0.18) 1px, transparent 1px, transparent 17px),
     repeating-linear-gradient(to bottom, rgba(90, 110, 190, 0.18) 0, rgba(90, 110, 190, 0.18) 1px, transparent 1px, transparent 17px);
   padding: 24px;
-}
-
-.statement-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 24px;
-  width: 100%;
-  height: 100%;
-}
-
-.statement-text p {
-  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 1.9;
-  color: #333333;
 }
 
 .kenburns {
