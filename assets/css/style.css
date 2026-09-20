@@ -140,6 +140,7 @@ body {
   width: 121px;
   height: auto;
   margin: 10px auto 0;
+  transform: scaleX(0.85);
 }
 
 .section-2 {
