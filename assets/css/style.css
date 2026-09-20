@@ -200,6 +200,29 @@ body {
   margin-top: 10px;
 }
 
+.statement-frame {
+  background-image: url("../img/grid-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 32px;
+}
+
+.statement-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.statement-text p {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+  font-size: 17px;
+  line-height: 1.9;
+  color: #333333;
+}
+
 .kenburns {
   animation: kenburns 19s ease-in-out infinite;
   transform-origin: center;
