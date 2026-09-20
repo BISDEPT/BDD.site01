@@ -135,14 +135,11 @@ body {
   margin-top: 6px;
 }
 
-.hero-text-sub {
-  font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
-  margin-top: 10px;
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #4a4a4a;
+.hero-text-sub-image {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 10px auto 0;
 }
 
 .section-2 {
